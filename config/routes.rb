@@ -7,5 +7,8 @@ Rails.application.routes.draw do
   get '/about', to: 'arts#about'
   get '/contact', to: 'arts#contact'
   get '/gallary', to: 'arts#gallary'
-  get '/profile', to: 'profiles#my_profile'
+  get '/profile', to: 'profiles#index'
+  post '/profile', to: 'profiles#create'
+  get '/profile/new', to: 'profiles#new'
+  get '/profile/:id', to: 'profiles#show'
 end
