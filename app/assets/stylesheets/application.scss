@@ -48,9 +48,42 @@ body {
 .img {
   width: 60vw;
   padding: 1rem;
+}
 
+.small_description .img {
+  width: 30vw;
+  padding: 1rem;
+}
+
+
+.navbar {
 
 }
+.navbar .nav_link_wrapper {
+  padding: 2vw 1.5vw 1rem 1.5rem;
+
+}
+
+.navbar .nav_link_wrapper a:link {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: RGB(0,58,0);
+  margin: 1rem 3rem;
+  padding: 1rem 2rem;
+  border: 1px solid RGBA(0,58,0,0.25);
+}
+
+
+
+.navbar .nav_link_wrapper a:visited {
+  color: RGB(0,58,0);
+}
+
+.navbar .nav_link_wrapper a:hover {
+  background-color: RGBA(0,58,0,0.28);
+  color: floralwhite;
+}
+
 
 
 footer {
