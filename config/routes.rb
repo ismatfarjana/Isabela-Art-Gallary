@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get '/', to: 'arts#index'
   get '/about', to: 'arts#about'
   get '/contact', to: 'arts#contact'
-  get '/gallary', to: 'collections#gallary'
+  get '/gallary', to: 'arts#gallary'
+  get '/profile', to: 'profiles#my_profile'
 end
