@@ -55,18 +55,21 @@ body {
   padding: 1rem;
 }
 
-
+.profile_info {
+  display: inline-block;
+  margin-left: 0vw;
+}
 
 .navbar .nav_link_wrapper {
-  padding: 2vw 1.5vw 1rem 1.5rem;
-
+  padding: 2vw 1.5vw;
+  margin: 1vw 1vw;
 }
 
 .navbar .nav_link_wrapper a:link {
   font-size: 1.5rem;
   text-decoration: none;
   color: RGB(0,58,0);
-  margin: 1rem 3rem;
+  //margin: 3rem 3rem;
   padding: 1rem 2rem;
   border: 1px solid RGBA(0,58,0,0.25);
 }
@@ -93,12 +96,14 @@ body {
 
 .form {
   margin: 2vw 0;
-
+  display: block;
 }
 
+
+
 .field .form_space {
-  width: 30vw;
-  text-align: left;
+  width: 100%;
+  display: block;
 }
 
 

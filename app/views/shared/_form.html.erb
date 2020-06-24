@@ -10,31 +10,34 @@
 <!--      </ul>-->
 <!--    </div>-->
   <%# end %>
-<div class="form">
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name, class: 'form_space' %>
-  </div>
-  <br>
 
-  <div class="field">
-    <%= form.label :Bio %>
-    <%= form.text_area :about_me, class: 'form_space' %>
-  </div>
-  <br>
-  <div class="field">
-    <%= form.label :interest %>
-    <%= form.text_area :interest, class: 'form_space' %>
-  </div>
-  <br>
+  <div class="profile_info">
+    <div class="form">
+      <div class="field">
+        <%= form.label :name %>
+        <%= form.text_field :name, class: 'form_space' %>
+      </div>
+      <br>
+
+      <div class="field">
+       <%= form.label :Bio %>
+        <%= form.text_area :about_me, class: 'form_space' %>
+      </div>
+      <br>
+      <div class="field">
+         <%= form.label :interest %>
+        <%= form.text_area :interest, class: 'form_space' %>
+      </div>
+      <br>
 
 <!--  <div class="field">-->
 <!--    <%#= form.label :photo %><br>-->
     <%#= form.text_field :photo %>
 <!--  </div>-->
 
-  <div class="actions">
-    <%= form.submit %>
+      <div class="actions">
+        <%= form.submit %>
+      </div>
+    </div>
   </div>
-</div>
 <% end %>

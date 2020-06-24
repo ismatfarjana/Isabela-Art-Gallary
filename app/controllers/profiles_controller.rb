@@ -10,7 +10,7 @@ class ProfilesController < ArtsController
     @profile = Profile.new(name: params[:name], about_me: params[:about_me], interest: params[:interest], user: current_user)
 
     if @profile.save
-      redirect_to @profile, notice: 'Congratulations! Your Artist profile is created!'
+      redirect_to "/profile/#{@profile.id}", notice: 'Congratulations! Your Artist profile is created!'
     else
       render :new
     end
