@@ -1,6 +1,10 @@
 class ProfilesController < ArtsController
   before_action :authenticate_user!
 
+
+  def index
+    @profile = current_user.profile
+  end
   def new
     @profile = Profile.new
   end

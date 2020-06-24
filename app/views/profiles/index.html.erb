@@ -3,6 +3,9 @@
   <h1 class="heading">My Profile</h1>
   <%= render 'shared/header' %>
   <hr>
+  <h3><%= @profile.name %></h3>
+  <p><%= @profile.about_me %></p>
+  <p><%= @profile.interest %></p>
   <%= link_to 'Add your Profile details', profile_new_path %>  here.
 
 </div>
