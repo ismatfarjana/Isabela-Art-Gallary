@@ -114,7 +114,9 @@ body {
   display: block;
 }
 
-
+.alert .alert-success {
+  background-color: RGB(255,220,202);
+}
 footer {
   //margin: 0rem 0 2px 0;
   color: ghostwhite;
