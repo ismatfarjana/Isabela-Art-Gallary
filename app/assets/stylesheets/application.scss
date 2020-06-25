@@ -22,21 +22,29 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: floralwhite;
   margin: 0;
-
+  position-top: 0;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+.user_entry{
+  background-color: RGB(255,220,202);
+  margin:0 0 0 0;
 
+}
 .whole_body h1 {
   align-content: center;
   font-size: 3rem;
   width: 30vw;
   margin: 1vw 35vw;
   padding: 1rem;
-  border: 1px solid gray;
+  //border: 1px solid gray;
+}
+
+.heading_navbar {
+  background-color: RGB(255,220,202);
 }
 
 .whole_body .small_description {
@@ -71,7 +79,7 @@ body {
   color: RGB(0,58,0);
   //margin: 3rem 3rem;
   padding: 1rem 2rem;
-  border: 1px solid RGBA(0,58,0,0.25);
+  //border: 1px solid RGBA(0,58,0,0.25);
 }
 
 
@@ -108,15 +116,16 @@ body {
 
 
 footer {
-  margin: -1rem 0 0 0;
+  //margin: 0rem 0 2px 0;
   color: ghostwhite;
-  font-size:20px;
-  background-color:darkslategray;
+  font-size:10px;
+  background-color:RGB(255,220,202);
   position: fixed;
-  bottom: 0;
+  bottom: 1px;
   width:100%;
-  height: 5rem;
-  padding: 1.5rem;
+  height: auto;
+  padding: 0 1px 4px 1px;
+
   border-top: 1px solid rgba( 255, 255, 255, 0.02 );
 }
 
